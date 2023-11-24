@@ -17,9 +17,10 @@ nav {
 }
 
 #logo {
-    font-size: 3rem;
-    margin-left: 30px;
-    width: 50%;
+    font-size: 4rem;
+    margin: 30px;
+    flex: 1;
+    box-sizing: border-box;
 }
 
 .menu{
@@ -50,12 +51,24 @@ nav {
     box-sizing: border-box;
 }
 
-#hamburgerIcon {
-    height: 50px;
-    width: 50px;
-    padding: 7px;
-    border: solid 1px #ffffff60;
-    border-radius: 3px;
-    margin: 20px 30px 20px 0;
+.image-container{
+    box-sizing: border-box;
+    margin: 30px;
+    display: flex;
+    justify-content: flex-end;
     flex: 1;
+}
+
+#hamburgerIcon {
+    height: 30px;
+    width: 60px;
+    padding: 10px;
+    border: solid 1px #ffffff1c;
+    border-radius: 3px;
+}
+
+#hamburgerIcon:active {
+    background-color: #ffffff1c;
+    border: solid 4px #ffffff77;
+    cursor: default;
 }
