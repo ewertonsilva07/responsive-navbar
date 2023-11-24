@@ -13,15 +13,31 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #logo {
     font-size: 3rem;
-    margin-left: 30px;;
+    margin-left: 30px;
+    width: 50%;
 }
 
 #menu{
-    display: none;
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.menu-item {
+    width: 100%;
+    padding: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-style: groove;
+    border-color: aliceblue;
+    border-width: 1px;
+    box-sizing: border-box;
 }
 
 #hamburgerMenu {
@@ -31,4 +47,5 @@ nav {
     border: solid 1px rgba(255, 255, 255, 0.377);
     border-radius: 3px;
     margin: 20px 30px 20px 0;
+    flex: 1;
 }
