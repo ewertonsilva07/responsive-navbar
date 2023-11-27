@@ -2,13 +2,18 @@
 
 Simple responsive navbar with a burger menu for smaller devices.
 
-**Burger menu:**
+**Burger menu on small devices:**
 
-![small-devices](images/small-devices.png)
+![small-devices](images/finished-small-devices.png)
 
 **Dropdown:**
 
-![small-devices](images/small-devices-toggled.png)
+![small-devices](images/finished-small-devices-toggled.png)
+
+**Large devices:**
+
+
+![large-devices](images/large-devices.png)
 
 
 
@@ -22,4 +27,9 @@ Simple responsive navbar with a burger menu for smaller devices.
 ### **Task** 2️⃣: Make the navbar toggle using Javascript.✔️✔️
 
 
-### **Task** 3️⃣: Change the Elements for their respective Breakpoints.🕘👷👷
+### **Task** 3️⃣: Change the Elements for their respective Breakpoints.✔️✔️
+
+---
+
+
+
