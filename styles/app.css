@@ -8,8 +8,13 @@ html {
     background-color:#000;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 nav {
-    color: white;
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,6 +56,14 @@ nav {
     box-sizing: border-box;
 }
 
+
+.menu-item:active {
+    background-color: #ffffff10;
+    border: solid 2px #ffffff13;
+    color: #ffffff36;
+    border-radius: 2px;
+}
+
 .image-container{
     box-sizing: border-box;
     margin: 30px;
@@ -82,11 +95,24 @@ nav {
         display: flex;
         justify-content: end;
         align-items: center;
-        width: 50%;
+        flex: 1;
+        margin-right: 30px;
     }
     
     .menu-item {
         border: none;
         width: 200px;
     }
+
+    .menu-item:hover {
+        background-color: #ffffff1c;
+        border: solid 2px #ffffff77;
+    }
+    
+    .menu-item:active {
+        background-color: #ffffff0e;
+        border: solid 2px #ffffff28;
+        color: #ffffff69;
+    }
+
 }
