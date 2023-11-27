@@ -72,3 +72,21 @@ nav {
     border: solid 4px #ffffff77;
     cursor: default;
 }
+
+@media(min-width: 992px){
+    .image-container{
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 50%;
+    }
+    
+    .menu-item {
+        border: none;
+        width: 200px;
+    }
+}
